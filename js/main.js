@@ -25,6 +25,12 @@ btn.addEventListener("click",(e) => {
     }
     laugh.volume = 1
     audio.volume = 1
+    if(btn.innerHTML=="🎈LIGHTS OFF"){
     laugh.play()
     audio.play()    
+    }
+    else{
+        laugh.pause()
+        audio.pause()
+    }
 })
